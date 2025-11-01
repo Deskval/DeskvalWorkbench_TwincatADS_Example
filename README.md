@@ -27,7 +27,7 @@ In order to setup Ads communication, there are things to do, both in Deskval Wor
 ## Setting Up Twincat Plc Side
 * Make sure your Beckhoff Plc has a route to the Pc where Deskval Workbench with a TC1000 is installed . If not, add Deskval Workbench Pc to route list.
 * In your Twincat Project, Add a GlobalVariableList named as **Deskval**
-* Add the following Variables to the Deskval Global Variable List:
+* Add the following Variables to your Global Variable List:
   
 ```
 AdsTagsFromDeskval_Boolean : ARRAY[0..127] OF BOOL;          // Written by DeskvalWorkbench.
